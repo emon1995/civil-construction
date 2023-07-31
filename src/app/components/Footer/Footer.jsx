@@ -49,7 +49,7 @@ const Footer = () => {
 
                 </div>
             </footer>
-            <footer className="footer lg:container mt-10 mx-auto items-center p-10  bg-base-200 text-base-content rounded ">
+            <footer className="footer lg:container mt-10 mx-auto items-center p-10  bg-[#1d232a] text-white rounded ">
                 <div className="items-center grid-flow-col">
                     <p>Copyright © {new Date().getFullYear()} -  PDC-Paragon Design Construction </p>
                 </div>

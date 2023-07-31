@@ -10,7 +10,7 @@ import SingleHeroSlider from "./SingleHeroSlider";
 
 const HeroSlider = () => {
     return (
-        <section className="main-slider">
+        <section className="main-slider mb-6 bg-white">
             <Swiper
                 slidesPerView={1}
                 loop
