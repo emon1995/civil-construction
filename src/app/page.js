@@ -1,6 +1,7 @@
 import Hero from "./components/Hero/Hero"
 import OurProjects from "./components/OurProjects/OurProjects"
 import OurServices from "./components/OurServices/OurServices"
+import OurBlogs from "./components/OurBlogs/OurBlogs";
 
 export const metadata = {
   title: 'Home | Paragon Design',
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <OurServices />
       <OurProjects />
+      <OurBlogs />
     </main>
   )
 }
