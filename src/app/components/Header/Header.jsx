@@ -6,8 +6,8 @@ import Link from 'next/link';
 const Header = () => {
     return (
         <div className="bg-neutral text-white h-[40.5px] flex items-center">
-            <div className="container mx-auto flex items-center justify-between">
-                <div className="flex items-center gap-1">
+            <div className="container mx-auto flex items-center md:justify-between justify-center">
+                <div className="md:flex items-center gap-1 hidden">
                     <p className="normal-case flex items-center gap-1 ">
                         <BsTelephone /> +88 01313854600
                     </p>
@@ -17,20 +17,20 @@ const Header = () => {
                         info@pdcbd.net
                     </p>
                 </div>
-                <div className="flex items-center gap-3">
-                    <Link href="#" className='w-8 h-8 bg-slate-800 hover:bg-red-600 rounded-full flex items-center justify-center'>
+                <div className="flex items-center gap-3 justify-center">
+                    <Link href="#" className='w-8 h-8 bg-slate-800 hover:bg-red-700 rounded-full flex items-center justify-center'>
                         <LiaYoutube className='' />
                     </Link>
-                    <Link href="#" className='w-8 h-8 bg-slate-800 hover:bg-red-600 rounded-full flex items-center justify-center'>
+                    <Link href="#" className='w-8 h-8 bg-slate-800 hover:bg-red-700 rounded-full flex items-center justify-center'>
                         <LiaFacebookF />
                     </Link>
-                    <Link href="#" className='w-8 h-8 bg-slate-800 hover:bg-red-600 rounded-full flex items-center justify-center'>
+                    <Link href="#" className='w-8 h-8 bg-slate-800 hover:bg-red-700 rounded-full flex items-center justify-center'>
                         <AiOutlineTwitter />
                     </Link>
-                    <Link href="#" className='w-8 h-8 bg-slate-800 hover:bg-red-600 rounded-full flex items-center justify-center'>
+                    <Link href="#" className='w-8 h-8 bg-slate-800 hover:bg-red-700 rounded-full flex items-center justify-center'>
                         <AiOutlineInstagram />
                     </Link>
-                    <Link href="#" className='w-8 h-8 bg-slate-800 hover:bg-red-600 rounded-full flex items-center justify-center transition'>
+                    <Link href="#" className='w-8 h-8 bg-slate-800 hover:bg-red-700 rounded-full flex items-center justify-center transition'>
                         <AiOutlineWhatsApp />
                     </Link>
                 </div>
