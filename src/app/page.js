@@ -1,4 +1,5 @@
 import Hero from "./components/Hero/Hero"
+import OurProjects from "./components/OurProjects/OurProjects"
 import OurServices from "./components/OurServices/OurServices"
 
 export const metadata = {
@@ -11,6 +12,7 @@ export default function Home() {
     <main>
       <Hero />
       <OurServices />
+      <OurProjects />
     </main>
   )
 }

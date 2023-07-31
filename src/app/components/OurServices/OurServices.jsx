@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const OurServices = () => {
     return (
-        <div className='bg-white'>
+        <div className='bg-[#eee] pt-6'>
             <h1 className='font-bold text-3xl uppercase mb-3 mt-5 text-center'>Our Services</h1>
             <div className="container mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-4">
                 {
