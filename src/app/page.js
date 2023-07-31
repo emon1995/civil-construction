@@ -1,3 +1,4 @@
+import Hero from "./components/Hero/Hero"
 
 export const metadata = {
   title: 'Home | Paragon Design',
@@ -7,7 +8,7 @@ export const metadata = {
 export default function Home() {
   return (
     <main>
-      <h1>Home</h1>
+      <Hero />
     </main>
   )
 }
