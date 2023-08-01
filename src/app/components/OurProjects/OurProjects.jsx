@@ -8,7 +8,7 @@ const OurProjects = () => {
             <h1 className='font-bold text-3xl uppercase mb-3 mt-5 text-center'>Our Projects</h1>
             <div className="container mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-4">
                 {
-                    servicesData.map(service => <div key={service.id} className="mt-10 max-w-sm">
+                    servicesData.slice(0, 8).map(service => <div key={service.id} className="mt-10 max-w-sm">
                         <div className="relative group">
                             <Image
                                 src={service.img}

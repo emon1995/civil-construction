@@ -89,6 +89,16 @@ const servicesData = [
         img: "/FB_IMG_1557569836779.jpg",
         title: "BUILDING CONSTRUCTION",
     },
+    {
+        id: 9,
+        img: '/1234.jpg',
+        title: "3D VISUALIZATION & ANIMATION",
+    },
+    {
+        id: 10,
+        img: "/IMG_20220728_022611-1536x947.jpg",
+        title: "BUILDING CONSTRUCTION",
+    },
 
 ];
 

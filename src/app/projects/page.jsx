@@ -1,10 +1,11 @@
 import React from 'react';
+import OurProjects from '../components/OurProjects/OurProjects';
 
 const ProjectsPages = () => {
     return (
-        <div>
-            <h1>ProjectsPages</h1>
-        </div>
+        <>
+            <OurProjects />
+        </>
     );
 };
 

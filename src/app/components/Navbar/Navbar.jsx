@@ -5,9 +5,9 @@ import logo from '../../../../public/Logo.png';
 
 const Navbar = () => {
     const navItems = <>
-        <li className="hover:bg-red-700 hover:text-black"><Link href="/">Home</Link></li>
-        <li className="hover:bg-red-700 hover:text-black"><Link href="/about">About Us</Link></li>
-        <li className="hover:bg-red-700 hover:text-black" tabIndex={0}>
+        <li className="hover:bg-red-500 hover:text-black"><Link href="/">Home</Link></li>
+        <li className="hover:bg-red-500 hover:text-black"><Link href="/about">About Us</Link></li>
+        <li className="hover:bg-red-500 hover:text-black" tabIndex={0}>
             <details>
                 <summary>Services</summary>
                 <ul className="p-2 menu z-10 bg-white w-30 lg:w-52 rounded-box">
@@ -24,7 +24,7 @@ const Navbar = () => {
                 </ul>
             </details>
         </li>
-        <li className="hover:bg-red-700 hover:text-black" tabIndex={0}>
+        <li className="hover:bg-red-500 hover:text-black" tabIndex={0}>
             <details>
                 <summary>Blog</summary>
                 <ul className="p-2 menu z-10 bg-white w-30 lg:w-52 rounded-box">
@@ -33,8 +33,8 @@ const Navbar = () => {
                 </ul>
             </details>
         </li>
-        <li className="hover:bg-red-700 hover:text-black"><Link href="/projects">Projects</Link></li>
-        <li className="hover:bg-red-700 hover:text-black"><Link href="/contact">Contact Us</Link></li>
+        <li className="hover:bg-red-500 hover:text-black"><Link href="/projects">Projects</Link></li>
+        <li className="hover:bg-red-500 hover:text-black"><Link href="/contact">Contact Us</Link></li>
     </>
 
     return (
